@@ -11,7 +11,13 @@ h2 {
 	padding-bottom: 30px;
 	color: #acd1b2;
 }
-
+#titulo_h3_no_topo {
+	font-family: Verdana;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	color: #acd1b2;
+}
 img {
 	height: 300px;
 	width: 300px;
