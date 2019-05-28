@@ -40,13 +40,13 @@ img {
 	border-top-right-radius: 15px;
 }
 
-ul{
+div div ul{
 	list-style-type: none;
 	position: fixed;
 	margin: -10px;
 }
 
-li {
+div div li {
 	display:inline;
 	padding:5px;
 	border: 2px solid #000000;
@@ -145,4 +145,23 @@ th {
 	font-size: 1.2em;
 	font-variant: small-caps;
 	color: #ffffff;
+}
+
+li.percent100 {
+	width: 50%;
+	margin: 10px; 
+}
+ul.graph
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+	
+ul.graph li
+{
+	margin-bottom: .5em;
+	padding: .2em;
+	background: #600;
+	color: #fff;
 }
