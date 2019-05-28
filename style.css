@@ -148,8 +148,24 @@ th {
 }
 
 li.percent100 {
-	width: 30%;
+	width: 90%;
 	margin: 10px; 
+}
+li.percent50 {
+	width: 45%;
+	margin: 10px;
+}
+li.percent80 {
+	width: 68%;
+	margin: 10px;
+}
+li.percent10 {
+	width: 9%;
+	margin: 10px;
+}
+li.percent1 {
+	width: 0%;
+	margin: 10px;
 }
 ul.graph
 {
@@ -164,4 +180,8 @@ ul.graph li
 	padding: .2em;
 	background: #600;
 	color: #fff;
+}
+table {
+	width: 50%;
+	margin-right: 900px;
 }
