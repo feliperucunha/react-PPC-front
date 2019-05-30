@@ -20,7 +20,7 @@ h1 {
 }	
 
 #navbar {
-	margin-top:-16px;
+	margin-top:-20px;
 	position:fixed;
 	left:50%;
 	margin-left:-234px;
@@ -28,7 +28,7 @@ h1 {
 
 #header {
 	position: relative;
-	top:  	15px;
+	top:  	25px;
 	background-color: #8fc1e3;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -110,26 +110,13 @@ th {
 #footer{
     clear:both;
 	position: relative;
-	bottom: -20px;
+	bottom: -40px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	height: 75px;
 	background-color: #8fc1e3;
-}
-
-#button{
-	border: 2px solid #000000;
-	float:left;
-	position: relative;
-	left: 660px;
-	bottom: -20px;
-	border-radius: 5px;
-	background-color: #031a5a;
-	height: 30px;
-	width: 150px;
-	
 }
 
 #button p{
@@ -183,6 +170,14 @@ ul.graph li
 	color: #fff;
 }
 table {
-	width: 50%;
+	width: 100%;
 	margin-right: 900px;
 }
+
+h3 {
+	font-family: Verdana;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	color: #f7f9fb;
+}	
