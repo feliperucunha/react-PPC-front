@@ -32,6 +32,8 @@ h1 {
 	background-color: #8fc1e3;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 div div ul{
@@ -47,7 +49,7 @@ div div li {
 	font-family: Futura, Tahoma, sans-serif;
 	color: #ffffff;
 	border-radius: 5px 5px;
-	background-color: #5085a5
+	background-color: #5085a5;
 }
 
 #left{
@@ -73,6 +75,8 @@ table {
 	background-color: #8FC1E3;
 	float: middle;
 	margin-right: 10px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
@@ -107,6 +111,8 @@ th {
     clear:both;
 	position: relative;
 	bottom: -20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	height: 75px;
