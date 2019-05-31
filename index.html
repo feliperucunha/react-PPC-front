@@ -2,46 +2,138 @@
 <html>
 <head>
 	<title>PPC UFPA</title>
-
-<link rel="stylesheet" type="text/css" href="./style.css"/>
-
+	<link rel="stylesheet" type="text/css" href="./style.css"/>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(21, 31, 126);
+  color: white;
+}
+
+</style>
 <body>
 
-<div id="header">
-	<div id="navbar">
-		<ul>
-			<li><a href="index.html">INÍCIO</a></li>
-			<li><a href="cursos.html">CURSOS ABRANGIDOS</a></li>
-			<li><a href="req.html">REQUISIÇÕES</a></li>
-			<li><a href="quem.html">QUEM SOMOS</a></li>
-		</ul>
-	</div>
-	<h1>Normalização dos Projetos Pedagógicos de Curso da UFPA para uma ferramenta comparativa de bibliografias</h1>
-	<h3 id="titulo_h3_no_topo">Projetos de Engenharia III</h3>
-</div>
+		<div class="topnav">
+				<a class="active" href="index.html">Início</a>
+				<a href="cursos.html">CURSOS ABRANGIDOS</a>
+				<a href="req.html">REQUISIÇÕES</a>
+				<a href="quem.html">QUEM SOMOS</a>
+			  </div>
+			  
+			  <div style="padding-left:16px">
+				<h1>Normalização dos Projetos Pedagógicos de Curso da UFPA para uma ferramenta comparativa de bibliografias</h1>
+				<p>Projetos de Engenharia III</p>
+			  </div>
+
+
 <div id="bottom_left">
 <p>É onde podemos encontrar a maior gama de informações sobre o curso, desta forma, aqui há toda a bibliografia usada durante o mesmo. Os alunos se baseiam nesta para estudar e uma boa universidade deve conter tais livros de acordo com os padrões impostos pelo MEC. Esta aplicação Web mostrará se isso ocorre para o seu curso.</p>
 </div>
 <div id="right">
-<table>
-	<th colspan="3">Cursos abrangidos atualmente</th>
-	<tr>
-		<td><a href="engcomp.html"><img src="https://4.bp.blogspot.com/-vwro3t3mxQU/VD8Gz0p3MjI/AAAAAAAACek/Ylk-pimwWwQ/s1600/SIMBOLO%2BENGENHARIA%2BDA%2BCOMPUTA%C3%87%C3%83O%2BA.jpg3.jpg"/></a></td>
-		<td><img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-		<td><img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-	</tr>
-	<tr>
-		<td><img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-		<td><img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-		<td><img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-	</tr>
-	<tr>
-		<td><img id="bottom_left" src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-		<td><img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"></td>
-		<td><img id="bottom_right" src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png"/></td>
-	</tr>
-</table>
+	<div style="text-align:center">
+		<h2>Opções de cursos</h2>
+		<p>Clique no curso desejado abaixo:</p>
+	  </div>
+	  
+	  <!-- The four columns -->
+	  <div class="row">
+		<div class="column">
+			<a href="engcomp.html"><img src="https://4.bp.blogspot.com/-vwro3t3mxQU/VD8Gz0p3MjI/AAAAAAAACek/Ylk-pimwWwQ/s1600/SIMBOLO%2BENGENHARIA%2BDA%2BCOMPUTA%C3%87%C3%83O%2BA.jpg3.jpg" alt="Engcomp" style="width:100%" onclick="myFunction(this);">
+		</div>
+		<div class="column">
+			<img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png" alt="SegundoCurso" style="width:100%" onclick="myFunction(this);">
+		</div>
+		<div class="column">
+			<img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png" alt="TerceiroCurso" style="width:100%" onclick="myFunction(this);">
+		</div>
+		<div class="column">
+			<img src="https://png2.kisspng.com/sh/05d29cf88c63318bdc129e43ccc0d759/L0KzQYi4UsE3N2k8fZGAYUO4QrO8WPFiPWI8SZC5M0O8RoW8VsE2OWQ5S6UENES5SYi9TwBvbz==/5a352b58aa5171.0339645615134339446976.png" alt="QuartoCurso" style="width:100%" onclick="myFunction(this);">
+		</div>
+	  </div>
+	  
 </div>
 <div id="footer">
 	<div id="button">
