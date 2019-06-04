@@ -1,12 +1,8 @@
-body {
-	background-image: url("wallpaper.jpg");
-    background-color: #cccccc;    
-    
-}
+
 
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: rgb(0, 131, 50);
   }
   
   .topnav a {
@@ -45,3 +41,16 @@ body {
         padding-bottom: 30px;
         color: #f7f9fb;
     }
+
+    
+.footer{
+    clear:both;
+	position: relative;
+	bottom: -20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #8fc1e3;
+}   
