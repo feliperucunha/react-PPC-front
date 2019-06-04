@@ -34,4 +34,14 @@ body {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	color: #f7f9fb;
+    color: #f7f9fb;
+  }
+    
+    h2 {
+        font-family: Verdana;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #f7f9fb;
+    }
