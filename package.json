@@ -1,0 +1,23 @@
+{
+  "name": "ppc",
+  "version": "1.0.0",
+  "description": "Documentação do projeto",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feliperucunha/PPC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feliperucunha/PPC/issues"
+  },
+  "homepage": "https://github.com/feliperucunha/PPC#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
