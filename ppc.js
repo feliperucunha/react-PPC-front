@@ -1571,17 +1571,31 @@ for (i = 0; i < sizebiblio; i++) {
 
     arraybiblio[i] = arraybiblio[i].replace(/\n/g," ");
     arraydisc[i] = arraydisc[i].replace(/\nCréditos: [\d]+\n/g, "");
+    arraydisc[i] = arraydisc[i].replace(/\n/g,"");
+    arraybiblio[i] = arraybiblio[i].replace(/Bibliografia /g,"");
 }
+
+let arrayobj = [];
+
+arrayobj[0] = {
+
+    Disciplina : arraydisc[0],
+    Livros : {
+
+        "Fundamentos de Física" : null
+
+    }
+
+}
+
+
 
 
 console.log(arraybiblio);
 console.log(arraydisc);
-
+console.log(arrayobj);
 
 console.log(arraybiblio.length);
 console.log(arraydisc.length);
 console.log(strlength);
 
-exemplo = "Estudando JavaScript! JavaScript é uma linguagem dinâmica";
-resultado = exemplo.replace(/JavaScript/g, "PHP"); 
-console.log(resultado);
