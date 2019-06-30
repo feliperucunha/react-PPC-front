@@ -1,4 +1,4 @@
-const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
 
 var url = "rosesc_2019-06-05-9-28-43.xlsx";
 

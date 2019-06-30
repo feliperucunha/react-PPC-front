@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 app.listen(3000, function() {
     console.log('Servidor rodando na porta 3000');
@@ -16,6 +17,10 @@ app.get('/indexbulma.html',function(req, resp) {
 
 app.get('/reqbulma.css',function(req, resp) {
     resp.sendFile('reqbulma.css', {root: path.join(__dirname, '/')});
+});
+
+app.get('/reqbulma.html',function(req, resp) {
+    resp.sendFile('reqbulma.html', {root: path.join(__dirname, '/')});
 });
 
 app.get('/quembulma.html',function(req, resp) {
@@ -76,4 +81,24 @@ app.get('/7sem.html',function(req, resp) {
 
 app.get('/8sem.html',function(req, resp) {
     resp.sendFile('8sem.html', {root: path.join(__dirname, '/')});
+});
+
+app.get('/breve.png',function(req, resp) {
+    resp.sendFile('breve.png', {root: path.join(__dirname, '/')});
+});
+
+app.get('/xlsx.full.min.js',function(req, resp) {
+    resp.sendFile('xlsx.full.min.js', {root: path.join(__dirname, '/')});
+});
+
+app.get('/ppc.js',function(req, resp) {
+    resp.sendFile('ppc.js', {root: path.join(__dirname, '/')});
+});
+
+app.get('/bdbc.js',function(req, resp) {
+    resp.sendFile('bdbc.js', {root: path.join(__dirname, '/')});
+});
+
+app.get('/rosesc_2019-06-05-9-28-43.xlsx',function(req, resp) {
+    resp.sendFile('rosesc_2019-06-05-9-28-43.xlsx', {root: path.join(__dirname, '/')});
 });
