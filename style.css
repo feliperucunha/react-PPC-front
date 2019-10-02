@@ -16,7 +16,7 @@ h2 {
 	font-weight: bold;
 	padding-bottom: 20px;
 	margin-left: 20px;
-	color: #acd1b2;
+	color: #ABDED0;
 }
 img {
 	height: 300px;
@@ -49,11 +49,11 @@ ul{
 li {
 	display:inline;
 	padding:5px;
-	border: 2px solid #000000;
+	border: 3px solid #000000;
 	font-family: Futura, Tahoma, sans-serif;
 	color: #ffffff;
-	border-radius: 5px 5px;
-	background-color: #031a5a
+	border-radius: 4px 4px;
+	background-color: ##055466
 }
 
 #left{
@@ -74,22 +74,22 @@ p {
 }
 
 table {
-	border: #000000 1px solid;
+	border: #000000 2px solid;
 	background-color: #acd1b2;
 	float: right;
 	margin-right: 10px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
 }
 
 td {
-	height: 75px;
-	width: 75px;
+	height: 80px;
+	width: 80px;
 }
 
 td img {
-	height: 75px;
-	width: 75px;
+	height: 80px;
+	width: 80px;
 	box-shadow: none;
 }
 
@@ -97,7 +97,7 @@ th {
 	font-family: Verdana;
 	font-size: 1em;
 	font-weight: normal;
-	color: #3c4543
+	color: #4B5C54
 }
 
 #bottom_left{
@@ -115,7 +115,7 @@ th {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	height: 75px;
-	background-color: #3c4543;
+	background-color: #4B5C54;
 }
 
 #button{
