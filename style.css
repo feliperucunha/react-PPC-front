@@ -1,0 +1,148 @@
+body {
+	background-color: rgb(76, 211, 221)
+    
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #acd1b2;
+}
+#titulo_h3_no_topo {
+	font-family: Verdana;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	color: #ABDED0;
+}
+img {
+	height: 300px;
+	width: 300px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+#navbar {
+	margin-top:-16px;
+	position:fixed;
+	left:50%;
+	margin-left:-234px;
+}
+
+#header {
+	position: relative;
+	top: 15px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+}
+
+li {
+	display:inline;
+	padding:5px;
+	border: 3px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 4px 4px;
+	background-color: ##055466
+}
+
+#left{
+	float:left;
+	width: 45%;
+	
+}
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+}
+
+#right{
+	float:right;
+	width: 45%;
+	
+}
+
+table {
+	border: #000000 2px solid;
+	background-color: #acd1b2;
+	float: right;
+	margin-right: 10px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+td {
+	height: 80px;
+	width: 80px;
+}
+
+td img {
+	height: 80px;
+	width: 80px;
+	box-shadow: none;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	color: #4B5C54
+}
+
+#bottom_left{
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+	border-bottom-right-radius: 15px;
+}
+
+#footer{
+    clear:both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #4B5C54;
+}
+
+#button{
+	border: 2px solid #000000;
+	float:left;
+	position: relative;
+	left: 660px;
+	bottom: -20px;
+	border-radius: 5px;
+	background-color: #031a5a;
+	height: 30px;
+	width: 150px;
+	
+}
+
+#button p{
+	position: relative;
+	bottom: 10px;
+	font-size: 0.8em;
+	color: #acd1b2;
+	text-align: center;
+}
+
+.bold{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #ffffff;
+}
